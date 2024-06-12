@@ -1,0 +1,12 @@
+@use "sass:color";
+
+$body--font-family-serif: "Garamond", serif;
+$body--font-family-sans-serif: "Candara", sans-serif;
+
+$theme-colors: (
+ "body": rgb(35, 35, 35),
+ "primary": rgb(9, 238, 20),
+ "success": rgb(6, 77, 6),
+ "tertiary": white
+);
+

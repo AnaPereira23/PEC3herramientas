@@ -1,0 +1,52 @@
+<include src="./views/doctype.html"></include>
+<html lang="es">
+
+  <head>
+    <include src="./views/head.html"></include>
+    <title>Concurso de cocina</title>
+  </head>
+  <body class="gray-dark serif h-dvh m-0 p-0 box-border">
+    <include src="./views/header.html"></include>
+
+  <main class="mx-auto w-full text-left smll:max-w-smll mdm:max-w-mdm lrg:max-w-lrg xlrg:max-w-xlrg">
+
+    <div class="grid grid-cols-3 grid-rows-8 auto-rows-auto gap-2.5 mdm:grid-cols-4 mdm:grid-rows-4 mdm:auto-rows-auto mdm:gap-5">
+      <h1 class="h1-primary col-start-1 col-span-2 row-start-1 text-left mdm:col-start-1 mdm:col-span-3 mdm:row-start-1">Sabores del Pueblo: Concurso de cocina</h1>
+      
+      <div class="col-start-1 col-span-3 row-start-2 row-span-2 mdm:col-start-1 mdm:col-span-2 mdm:row-start-2 mdm:row-span-3 mdm:self-center">
+        <p class="mx-2 mdm:mx-5 mdm:my-7">¿Tienes lo necesario para cautivar nuestros paladares con tus habilidades culinarias? Únete al emocionante concurso de cocina "Sabores del Pueblo" y muestra al mundo tus talentos gastronómicos.</p>
+        <ul class="list-none ml-6">
+            <li class="mdm:my-7">¡Crea platos únicos inspirados en la tradición y la creatividad!</li>
+            <li class="mdm:my-7">Comparte tus recetas y técnicas con la comunidad culinaria local.</li>
+            <li class="mdm:my-7">Gana emocionantes premios y diviértete con tus vecinos.</li>
+        </ul>
+        <p class="mx-2 mdm:mx-5 mdm:my-7">¡No te pierdas la oportunidad de ser parte de este festín culinario! <a href="#" class="link:green-light visited:green-light active:green-light hover:green-dark no-underline">Inscríbete ahora clicando aquí</a> y prepárate para sorprender con tus creaciones culinarias.</p>
+      </div>
+
+      <img class="col-start-1 col-span-3 row-start-4 row-span-3 w-full mdm:col-start-3 mdm:col-span-2 mdm:row-start-2 mdm:row-span-2"
+      srcset="assets/images/cocineros.jpg 300w, assets/images/cocineros.jpg 1200w"
+      sizes="(max-width: 600px) 300px, 1200px"
+      src="assets/images/cocineros.jpg"
+      loading="lazy"
+      alt="Personas cocinando paella en el pueblo"/>
+      
+      <img class="col-start-1 col-span-2 row-start-7 row-span-2 w-full mdm:col-start-3 mdm:col-span-1 mdm:row-start-4 mdm:row-span-1"
+      srcset="assets/images/sarten.jpg 300w, assets/images/sarten.jpg 1200w"
+      sizes="(max-width: 600px) 300px, 1200px"
+      src="assets/images/sarten.jpg"
+      loading="lazy"
+      alt="Sartén con fuego"/>
+
+      <div class="col-start-3 row-start-7 row-span-2 self-center mdm:col-start-4 mdm:row-start-4 mdm:self-center mdm:justify-items-center">
+        <ul class="list-none ml-6">
+            <li class="mdm:my-7">Fecha: 15 junio</li>
+            <li class="mdm:my-7">Hora: 14h30</li>
+            <li class="mdm:my-7">Local: Plaza</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>
